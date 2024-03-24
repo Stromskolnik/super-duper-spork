@@ -1,0 +1,36 @@
+.weather-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .cities-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .city-card {
+    border: 2px solid #3498db; /* Add border color */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px; /* Set a fixed width for each city card */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  .Date{
+    font-weight: bold;
+  }
+  
+  
